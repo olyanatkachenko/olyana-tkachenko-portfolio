@@ -114,11 +114,14 @@ button:hover {
     width: 100%;
 }
 
+.home-text{
+    margin-right: 80px;
+}
 .home-text span{
     text-align: left;
     color: var(--dark-main-color);
     font-weight: 500;
-    font-size: var(--medium-font)
+    font-size: var(--medium-font);
 }
 
 .home-text h1{
@@ -127,15 +130,17 @@ button:hover {
     color: var(--dark-main-color);
     line-height: 1.05;
     margin-bottom: 10px !important;
+    margin-top: 10px!important;
 }
 
 .home-text p{
     font-size: var(--medium-font);
-    line-height: 1.6;
+    line-height: 1.8;
     text-align: left;
     color: var(--dark-main-color);
-    font-weight: 300 !important;
+    font-weight: 400 !important;
     margin-bottom: 40px !important;
+    margin-top: 20px;
 }
 
 .social{
