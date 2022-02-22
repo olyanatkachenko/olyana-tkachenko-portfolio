@@ -234,13 +234,40 @@ button:hover {
 }
 
 /*skills*/
-.skills {
+.skills-list{
+    display: grid;
+    grid-template-columns: repeat(6, minmax(140px,200px));
+    gap: 0 10px;
+    padding: 0;
+    margin: 20px 0 0;
+    overflow: hidden;
+    list-style: none;
+}
+.skills-list li{
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.skills-list li:before{
+    content: "▹" ;
+    position: absolute;
+    left: 0;
+    line-height: 12px;
+}
+
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+/*.skills {
     margin-bottom: 80px;
 }
 
 .skills-conteiner {
     display: grid;
-    grid-template-columns: repeat(1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
     margin-top: 2rem;
@@ -281,7 +308,7 @@ button:hover {
 
 .css-bar {
     width: 94%;
-}
+}*/
 
 /*My project content*/
 .projects {
