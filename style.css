@@ -336,7 +336,6 @@ h2 {
     font-weight: 300;
     margin: 0.5em 0 2em 0;
     letter-spacing: 2px;
-    color: var(--dark-violet);
 }
 
 .icons {
@@ -355,7 +354,7 @@ h2 {
 
 .card:hover {
     background: linear-gradient(#6045ea, #8567f7);
-    color: #ffffff;
+    color: #ffffff!important;
 }
 
 .card:hover .img-container {
