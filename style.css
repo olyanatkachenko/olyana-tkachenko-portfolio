@@ -96,6 +96,10 @@ button:hover {
     background-color: var(--main-accent-color);
     color: white !important;
 }
+button:hover a {
+    color: white !important;
+}
+
 
 /*Main Section*/
 .home {
@@ -393,12 +397,15 @@ h2 {
     font-weight: 400;
 }
 
-.contact-form .input-text:focus {
-    outline: none;
+[type=text]:focus,
+[type=email]:focus {
+    --tw-ring-color: transparent;
+    border-color: black;
 }
 
 .contact-form .input-text:focus + .label, .contact-form .input-text.not-empty + .label {
     transform: translateY(-24);
+
 }
 
 .contact-form .label {
@@ -479,6 +486,10 @@ h2 {
     font-size: var(--medium-font) !important;
 }*/
 
+.footer-content:hover{
+    text-decoration: none;
+    color: var(--main-accent-color);
+}
 
 @media screen and (min-width: 992px) {
     header {
@@ -574,6 +585,14 @@ h2 {
 
     .information .info-box span {
         font-size: 1rem;
+    }
+    .home-text{
+        margin-right: 0;
+    }
+    .about-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
