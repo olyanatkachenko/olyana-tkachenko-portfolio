@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="description"
+          content="Olyana Tkachenko is a Frontend developer and UI/UX Designer based in Kyiv, Ukraine">
+
+    <title>Olyana Tkachenko: Frontend developer and UI/UX Designer</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <script src="https://kit.fontawesome.com/6070c16716.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.3.4/dist/flowbite.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+    <a href="#home" class="logo">Olyana</a>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">About</a></li>
+            <li><a href="#about">Experience</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#content">Contact</a></li>
+            <li><a href="https://verandacolor.com/" target="_blank">My Projects</a></li>
+        </ul>
+    </nav>
+
+    <a class="cta" href="Olena_Tkachenko.pdf" target="_blank">
+        <button>Download CV</button>
+    </a>
+
+    <a onclick="openNav()" class="menu" href="#">
+        <button>Menu</button>
+    </a>
+
+    <div id="mobile-menu" class="overlay">
+        <a class="close" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#home">About</a>
+            <a href="#about">Experience</a>
+            <a href="#projects">Work</a>
+            <a href="#content">Contact</a>
+            <a href="Olena_Tkachenko.pdf">Download CV</a>
+        </div>
+    </div>
+</header>
+
+<!-- Main Section -->
+<section class="home" id="home">
+    <div class="social">
+        <a href="https://www.behance.net/olyanatkachenko" target="_blank"><i
+                class="fa-brands fa-behance-square"></i></a>
+        <a href="https://github.com/olyanatkachenko" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/olyana_tk/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+        <a href="mailto:olyanatkachenko@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+
+    <div class="home-img">
+        <img src="img/olyana-home.jpg" alt="">
+    </div>
+
+    <div class="home-text">
+        <span>Hi, I’m Olyana ✌️</span>
+        <h1>I build things for the web</h1>
+        <p>I’m a professional UI/UX designer with front end development skills based in Kyiv. I can help you creat high
+            quality products.</p>
+        <button><a href="#content" class="btn">Let's talk</a></button>
+    </div>
+</section>
+
+<!--About-->
+<section class="about" id="about">
+    <div class="heading">
+        <h2>👩 A bit about me</h2>
+        <span>Introduction</span>
+    </div>
+
+    <!-- About Content-->
+    <div class="about-container">
+        <div class="about-img">
+            <img src="img/img-olyana.jpeg" alt="">
+        </div>
+        <div class="about-text">
+            <p>
+                I am a creative and enthusiastic future developer. I have worked as a designer previously and am very
+                familiar with the IT industry, I am studying Front-End development intensively and I'm ready for the
+                trainee position.
+                <br>
+                <br>
+                I have several finished projects to showcase. I will be a great long-term addition to
+                your team.
+                <br>
+                <br>
+                <i> Here are a few technologies I’ve been working with recently:</i>
+            </p>
+            <div class="skills-list">
+                <li>HTML / CSS / Bootstrap</li>
+                <li>JavaScript / JSON / REST</li>
+                <li>Git</li>
+                <li>Figma/ Sketch</li>
+                <li>Illustrator / Photoshop</li>
+                <li>Zeplin</li>
+            </div>
+            <div class="information">
+                <!-- Box 1 -->
+                <div class="info-box">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Olyana Tkachenlo</span>
+                </div>
+
+                <!-- Box 2 -->
+                <div class="info-box">
+                    <i class="fa-brands fa-telegram"></i>
+                    <span>@olyanatkachenko</span>
+                </div>
+
+                <!-- Box 3 -->
+                <div class="info-box">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span><a href="mailto:olyanatkachenko@gmail.com">olyanatkachenko@gmail.com</a></span>
+                </div>
+            </div>
+            <a class="cta" href="Olena_Tkachenko.pdf" target="_blank">
+                <button>Download CV</button>
+            </a>
+        </div>
+    </div>
+</section>
+<!--Skills -->
+<!--<section class="skills" id="skills">
+    <div class="heading">
+        <h2>Skills/Tools</h2>
+        <span>My Skills</span>
+    </div>
+    &lt;!&ndash;Skills Content &ndash;&gt;
+    <div class="skills-conteiner">
+        <div class="bars">
+
+            &lt;!&ndash;box 1&ndash;&gt;
+            <div class="bars-box">
+                <h3>HTML</h3>
+                <span>50%</span>
+                <div class="light-bar"></div>
+                <div class="perceent-bar html-bar"></div>
+            </div>
+
+            &lt;!&ndash;box 2&ndash;&gt;
+            <div class="bars-box">
+                <h3>HTML</h3>
+                <span>94%</span>
+                <div class="light-bar"></div>
+                <div class="perceent-bar html-bar"></div>
+            </div>
+
+            &lt;!&ndash;box 3&ndash;&gt;
+            <div class="bars-box">
+                <h3>CSS</h3>
+                <span>94%</span>
+                <div class="light-bar"></div>
+                <div class="perceent-bar css-bar"></div>
+            </div>
+
+            &lt;!&ndash;box 4&ndash;&gt;
+            <div class="bars-box">
+                <h3>Figma/Sketch</h3>
+                <span>95%</span>
+                <div class="light-bar"></div>
+                <div class="perceent-bar css-bar"></div>
+            </div>
+
+            &lt;!&ndash;box 5&ndash;&gt;
+            <div class="bars-box">
+                <h3>Figma/Photoshop</h3>
+                <span>95%</span>
+                <div class="light-bar"></div>
+                <div class="perceent-bar css-bar"></div>
+            </div>
+
+        </div>
+    </div>
+
+</section>-->
+
+<!--my projects -->
+<section class="projects" id="projects">
+    <div class="heading">
+        <h2>Projects</h2>
+        <span>My projects</span>
+    </div>
+    <!--my projects content-->
+    <div class="row-custom">
+        <!-- Column 1-->
+        <div class="column">
+            <div class="card">
+                <div class="img-container">
+                    <img class="img-fluid" src="img/weather-app.png"/>
+                </div>
+                <h4>Weather</h4>
+                <p>About weather</p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/olyana_tk/" target="_blank">
+                        <i class="fa-brands fa-instagram-square"></i>
+                    </a>
+                    <a href="https://github.com/olyanatkachenko" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:olyanatkachenko@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Column 2-->
+        <div class="column">
+            <div class="card">
+                <div class="img-container">
+                    <img src="img/weather-app.png"/>
+                </div>
+                <h4>Weather</h4>
+                <p>About weather</p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/olyana_tk/" target="_blank">
+                        <i class="fa-brands fa-instagram-square"></i>
+                    </a>
+                    <a href="https://github.com/olyanatkachenko" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:olyanatkachenko@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Column 3-->
+        <div class="column">
+            <div class="card">
+                <div class="img-container">
+                    <img src="img/weather-app.png"/>
+                </div>
+                <h4>Weather</h4>
+                <p>About weather</p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/olyana_tk/" target="_blank">
+                        <i class="fa-brands fa-instagram-square"></i>
+                    </a>
+                    <a href="https://github.com/olyanatkachenko" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:olyanatkachenko@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--contact me-->
+<section class="contact" id="content">
+    <div class="heading">
+        <h2>Send me a message!</h2>
+        <span>Got a question or proposal, or just want to say hello? Go ahead</span>
+    </div>
+
+    <!--contact me content-->
+    <form action="https://submit-form.com/V3oTA4Lo">
+        <div class="inner-content">
+            <div class="container">
+                <div class="contact-form">
+                    <div class="row">
+                        <div class="form-field col">
+                            <label for="name" class="label">Your Name</label>
+                            <input id="name" class="input-text" type="text" name="name">
+                        </div>
+
+                        <div class="form-field col">
+                            <input id="email" class="input-text" type="email" name="email">
+                            <label for="email" class="label">Email Address
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-field col-lg-12">
+                            <label for="message" class="label">Your Message</label>
+                            <textarea id="message" class="input-text" type="text" name="message"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-field d-grid gap-2 col-6 mx-auto">
+                            <input class="submit-btn" type="submit" value="Shoot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </form>
+
+</section>
+
+<!--footer-->
+
+<footer class="p-4 bg-white md:px-6 md:py-8 dark:bg-gray-800">
+    <div class="sm:flex sm:items-center sm:justify-between">
+        <a href="#home" class="flex items-center mb-4 sm:mb-0">
+            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white footer-content">Olyana</span>
+        </a>
+        <ul class="flex flex-wrap items-center mb-6 sm:mb-0">
+            <li>
+                <a href="#home"
+                   class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400 footer-content">About</a>
+            </li>
+            <li>
+                <a href="#about"
+                   class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400 footer-content">Experience</a>
+            </li>
+            <li>
+                <a href="#projects"
+                   class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400 footer-content">Work</a>
+            </li>
+            <li>
+                <a href="#contact" class="text-sm text-gray-500 hover:underline dark:text-gray-400 footer-content">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
+    <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 Olyana Tkachenko. All Rights Reserved.
+</span>
+    <!-- <div class="footer-link">
+         <h2>Olyana Tkachenko</h2>
+         <div class="footer-link-img">
+             <i class="fa-brands fa-instagram"></i>
+             <i class="fa-brands fa-github"></i>
+         </div>
+         <div class="footer-mail"><a href="mailto:olyanatkachenko@gmail.com">olyanatkachenko@gmail.com</a>
+         </div>
+     </div>-->
+
+</footer>
+
+
+<script type="text/javascript" src="mobile.js"></script>
+
+</body>
+</html>
